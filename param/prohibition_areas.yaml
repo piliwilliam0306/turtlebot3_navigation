@@ -1,0 +1,15 @@
+prohibition_areas:
+ # your first prohibited area is only a point
+#  - [17.09, -6.388]
+ # now we define a line
+ # it will become the thickness of the costmap resolution
+#  - [[8.33, 2.11],
+#     [8.26, 5.11]]
+ - [[1.5, 1.5],
+    [1.5, -1.5],
+    [-1.5, -1.5],
+    [-1.5, 1.5]]
+ # and last but not least a polygon with an individual number of points
+ - [[-11.15, -15.614],
+    [-12.35, -13.89],
+    [-10.05, -12.218]]
